@@ -1,7 +1,7 @@
 package com.javatest;
 
 /**
- * @author MrSourcePle
+ * @author MrSourcePlex
  * @version 1.0
  * @since 2016-07-19
  */
