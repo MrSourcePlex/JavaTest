@@ -26,7 +26,7 @@ public class JavaTest {
 		for(int i = 1; i <= MAX_TRIES; i++) {
 			try{
 				System.out.print(">> ");
-				input = getInput();	
+				input = getInput();
 				choice = Integer.parseInt(input);
 				if(choice > 0 && choice <= 3) {
 					break;
