@@ -1,5 +1,10 @@
 package com.javatest;
 
+/**
+ * @author MrSourcePle
+ * @version 1.0
+ * @since 2016-07-19
+ */
 public class JavaTest {
 	
 	public JavaTest() {
