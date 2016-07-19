@@ -1,0 +1,10 @@
+# OS junk files
+*.DS_Store
+
+# eclipse
+*.classpath
+*.project
+
+# build files
+*.class
+/bin
