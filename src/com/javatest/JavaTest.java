@@ -59,10 +59,19 @@ public class JavaTest {
 		}
 	}
 	
+	/**
+	 * @param args Command line arguments
+	 */
 	public static void main(String[] args) {
 		new JavaTest();
 	}
 	
+	/**
+	 * Reads user input
+	 * Creates new Scanner if Scanner does not exists
+	 * 
+	 * @return String Returns user input
+	 */
 	public String getInput() {
 		if(scanner == null) {
 			scanner = new Scanner(System.in);
@@ -70,6 +79,13 @@ public class JavaTest {
 		return scanner.nextLine();
 	}
 	
+	
+	/**
+	 * Calculates minimum value of float values
+	 * 
+	 * @param values
+	 * @return float Returns minimum value of @param
+	 */
 	public float min(float...values) {
 		float min = max(values);
 		for(float f : values) {
@@ -78,6 +94,12 @@ public class JavaTest {
 		return min;
 	}
 	
+	/**
+	 * Calculates maximum value of float values
+	 * 
+	 * @param array of floats
+	 * @return float Returns maximum value of @param
+	 */
 	public float max(float...values) {
 		float max = 0;
 		for(float f : values) {
@@ -86,6 +108,12 @@ public class JavaTest {
 		return max;
 	}
 	
+	/**
+	 * Calculates average value of float values
+	 * 
+	 * @param array of floats
+	 * @return float Returns average value of @param
+	 */
 	public float average(float...values) {
 		float sum = 0;
 		for(float f : values) {
