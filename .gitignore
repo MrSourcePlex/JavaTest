@@ -4,7 +4,12 @@
 # eclipse
 *.classpath
 *.project
+.settings
 
 # build files
 *.class
 bin/
+
+# gradle
+.gradle
+/build
