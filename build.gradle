@@ -1,4 +1,5 @@
 apply plugin: "java"
+apply plugin: "ide"
 
 sourceSets {
 	main.java.srcDir "src"
